@@ -11,6 +11,7 @@
 /*pag10  
 /* --unidad: #0080C9;
 --fondo: #F6EAD0;
+--colorTitulo: #04A64B;
 --destaca: #FFE07D;
 --complemento: #D9EFFD;
 --blanco: #fff; */
@@ -72,6 +73,7 @@ header {
     height: 100px;
     display: flex;
     justify-content: center;
+    border-radius: 0 0 10px 10px;
     background-color: var(--unidad);
     z-index: 99;
 }
@@ -80,12 +82,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: var(--unidad);
     margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0 0;
 }
 
 
@@ -113,8 +116,7 @@ main {
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 90%;
-    /* background-color: rgba(0, 255, 255, 0.409); */
+    width: 95%;
     transition: 0.2s;
 
 }
@@ -128,12 +130,12 @@ main {
 
 .img_sami {
     position: absolute;
-    background-image: url(../img/pag10.png);
+    background-image: url(../img/sami1.png);
     background-repeat: no-repeat;
     background-size: cover;
     top: 10px;
 
-    left: 5%;
+    left: 2%;
     width: 110px;
     height: 110px;
     transition: 0.1s;
@@ -227,7 +229,6 @@ filter: invert(98%) sepia(16%) saturate(5112%) hue-rotate(303deg) brightness(137
 
 .img {
     width: 60px;
-
 }
 
 .contenido_caja {
@@ -316,7 +317,7 @@ button:hover {
         background-size: cover;
         top: 10px;
         float: left;
-        left: 5%;
+        left: 2%;
         width: 110px;
         transition: 0.1s;
         /* background-color: red; */
