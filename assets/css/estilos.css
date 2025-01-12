@@ -287,7 +287,7 @@ button:hover {
 }
 
 .play_pause {
-    width: 25px;
+    width: 20px;
 }
 
 
@@ -337,6 +337,16 @@ button:hover {
 
 
 @media (max-width: 470px) {
+
+    .contenedor {
+        width: 95%;
+        height: 100% !important;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: var(--blanco);
+
+    }
+
     .txt_encabezado {
         width: 70%;
         margin-right: 10px;
@@ -346,8 +356,8 @@ button:hover {
 
     button {
         margin: 0;
-        width: 50px !important;
-        height: 50px !important;
+        width: 40px !important;
+        height: 40px !important;
         border-radius: 50px;
         justify-content: center;
     }
@@ -391,17 +401,7 @@ button:hover {
         font-size: 19px;
     }
 
-    button {
-        margin: 0;
-        width: 50px !important;
-        height: 50px !important;
-        border-radius: 50px;
-        justify-content: center;
-    }
 
-    button span {
-        display: none;
-    }
 
 }
 
