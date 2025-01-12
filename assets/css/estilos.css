@@ -232,6 +232,7 @@ filter: invert(98%) sepia(16%) saturate(5112%) hue-rotate(303deg) brightness(137
     width: 60px;
 }
 
+
 .contenido_caja {
     margin-top: 30px;
     width: 100%;
@@ -396,7 +397,7 @@ button:hover {
     .textos {
         width: 50%;
         font-size: 18px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
 
     button {
@@ -414,4 +415,28 @@ button:hover {
 }
 
 
-@media (max-width: 470px) {}
+@media (max-width: 415px) {
+    .txt_encabezado {
+        width: 70%;
+        margin-right: 5px;
+        display: flex;
+        text-align: end;
+
+        /* background-color: #ffe17d69; */
+    }
+
+    .textos {
+        width: 58%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start !important;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 10px;
+        /* gap: 1px; */
+
+        /* margin-right:   */
+        /* background-color: rgba(255, 0, 0, 0.451); */
+    }
+}
