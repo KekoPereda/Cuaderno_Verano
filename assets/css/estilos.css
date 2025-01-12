@@ -261,7 +261,7 @@ filter: invert(98%) sepia(16%) saturate(5112%) hue-rotate(303deg) brightness(137
     /* gap: 1px; */
 
     /* margin-right:   */
-    background-color: rgba(255, 0, 0, 0.451);
+    /* background-color: rgba(255, 0, 0, 0.451); */
 }
 
 .texto_pregunta {
