@@ -4,6 +4,7 @@
     --destaca: #FFE07D;
     --colorTitulo: #04A64B;
     --complemento: #D9EFFD;
+    --btnhover: #18527b;
     --blanco: #fff;
 
 }
@@ -68,7 +69,6 @@ header {
     /* position: fixed;
     top: 0; */
     /*FIJA POSICION*/
-
     width: 100%;
     height: 100px;
     display: flex;
@@ -126,7 +126,6 @@ main {
     display: flex;
     justify-content: end;
     margin-left: auto;
-    /* background-color: #ffe17d69; */
 }
 
 .img_sami {
@@ -153,10 +152,8 @@ main {
     width: 95%;
     height: 100% !important;
     padding: 20px;
-
     border-radius: 20px;
     background-color: var(--blanco);
-    /* background-color: #ffe17d94; */
 
 }
 
@@ -166,12 +163,9 @@ main {
     justify-self: center;
     justify-content: center;
 
-    /* background-color: #7d83ff94; */
-
 }
 
 .barra_titulo {
-    /* background-color: var(--fondoTitulo); */
     width: 350px;
     transform: rotate(-2deg);
 
@@ -183,7 +177,7 @@ main {
 
 .img_barra_titulo {
     position: relative;
-    background-color: var(--fondoTitulo);
+
     width: 300px;
     height: 70px;
 
@@ -230,10 +224,12 @@ filter: invert(98%) sepia(16%) saturate(5112%) hue-rotate(303deg) brightness(137
 
 .img {
     width: 60px;
+    transition: 0.5s;
 }
 
 
 .contenido_caja {
+    position: relative;
     margin-top: 30px;
     width: 100%;
     height: 90px;
@@ -250,18 +246,11 @@ filter: invert(98%) sepia(16%) saturate(5112%) hue-rotate(303deg) brightness(137
 
 
 .textos {
-    width: 70%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: start !important;
+    position: absolute;
+    left: 100px;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 10px;
-    /* gap: 1px; */
-
-    /* margin-right:   */
-    /* background-color: rgba(255, 0, 0, 0.451); */
+    transition: 0.2s;
 }
 
 .texto_pregunta {
@@ -285,8 +274,7 @@ button {
     border: none;
     gap: 10px;
     cursor: pointer;
-    /* transition: background-color 0.5s; */
-    /* transition: all; */
+
     transition-duration: 0.2s;
 }
 
@@ -316,8 +304,6 @@ button:hover {
         width: 70%;
         display: flex;
         text-align: end;
-
-        /* background-color: #ffe17d69; */
     }
 
     .img_sami {
@@ -330,21 +316,18 @@ button:hover {
         left: 2%;
         width: 110px;
         transition: 0.1s;
-        /* background-color: red; */
     }
 
     .textos {
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
+        position: absolute;
+        left: 75px;
         font-size: 20px;
         font-weight: 700;
-        margin-left: 10px;
-        /* gap: 1px; */
+    }
 
-        /* margin-right:   */
-        /* background-color: rgba(255, 0, 0, 0.451); */
+    .img {
+        width: 50px;
+        margin: 0;
     }
 
 
@@ -359,10 +342,19 @@ button:hover {
         margin-right: 10px;
         display: flex;
         text-align: end;
-
-        /* background-color: #ffe17d69; */
     }
 
+    button {
+        margin: 0;
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50px;
+        justify-content: center;
+    }
+
+    button span {
+        display: none;
+    }
 
 
 }
@@ -377,7 +369,6 @@ button:hover {
         justify-content: end !important;
         align-items: center;
         width: 96%;
-        /* background-color: rgba(0, 255, 255, 0.409); */
         transition: 0.2s;
 
     }
@@ -395,9 +386,9 @@ button:hover {
     }
 
     .textos {
-        width: 50%;
-        font-size: 18px;
-        margin-left: 30px;
+        position: absolute;
+        left: 70px;
+        font-size: 19px;
     }
 
     button {
@@ -421,22 +412,7 @@ button:hover {
         margin-right: 5px;
         display: flex;
         text-align: end;
-
-        /* background-color: #ffe17d69; */
     }
 
-    .textos {
-        width: 58%;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: start !important;
-        font-size: 20px;
-        font-weight: 700;
-        margin-left: 10px;
-        /* gap: 1px; */
-
-        /* margin-right:   */
-        /* background-color: rgba(255, 0, 0, 0.451); */
-    }
 }
